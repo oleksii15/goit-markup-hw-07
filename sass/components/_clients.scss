@@ -43,14 +43,12 @@
   justify-content: center;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.clients-link:hover .clients-link_svg,
-.clients-link:focus .clients-link_svg {
-  fill: $accent-color;
-}
-
-.clients-link:hover,
-.clients-link:focus {
-  border-color: $accent-color;
+  &:hover,
+  &:focus {
+    border-color: $accent-color;
+  }
+  &:hover .clients-link_svg,
+  &:focus .clients-link_svg {
+    fill: $accent-color;
+  }
 }

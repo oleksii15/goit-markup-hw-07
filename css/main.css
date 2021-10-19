@@ -765,14 +765,13 @@ img {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.clients-link:hover, .clients-link:focus {
+  border-color: #2196f3;
+}
+
 .clients-link:hover .clients-link_svg,
 .clients-link:focus .clients-link_svg {
   fill: #2196f3;
-}
-
-.clients-link:hover,
-.clients-link:focus {
-  border-color: #2196f3;
 }
 
 .footer-list_item {
