@@ -16,13 +16,13 @@
 
 .soc-link:focus,
 .soc-link:hover {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   border-radius: 50%;
 }
 
 .soc-link:hover .soc-link_icon,
 .soc-link:focus .soc-link_icon {
-  fill: var(--white-text-color);
+  fill: $white-text-color;
 }
 
 .soc-list {
@@ -37,5 +37,5 @@
 .soc-link_icon {
   width: 20px;
   height: 20px;
-  fill: var(--soc-logo-color);
+  fill: $soc-logo-color;
 }

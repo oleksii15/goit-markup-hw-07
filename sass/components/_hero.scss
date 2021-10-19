@@ -3,7 +3,7 @@
 }
 .hero_title {
   margin: 0 auto;
-  color: var(--white-text-color);
+  color: $white-text-color;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -20,8 +20,8 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  background-color: var(--accent-color);
-  color: var(--white-text-color);
+  background-color: $accent-color;
+  color: $white-text-color;
   border: none;
   text-decoration: none;
   text-align: center;
@@ -31,7 +31,7 @@
 .hero_button:hover,
 .hero_button:focus {
   cursor: pointer;
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 
 .hero {

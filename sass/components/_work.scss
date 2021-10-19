@@ -5,7 +5,7 @@
 .work_title,
 .team_title {
   margin-bottom: 50px;
-  color: var(--title-text-color);
+  color: $title-text-color;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -14,13 +14,13 @@
 
 .work_list {
   flex-wrap: wrap;
-  margin-left: calc(-1 * var(--primary-gap));
+  margin-left: calc(-1 * 30px);
   display: flex;
 }
 
 .work_item {
   flex-basis: calc(100% / 3 -30px);
-  margin-left: var(--primary-gap);
+  margin-left: 30px;
   position: relative;
 }
 
@@ -47,5 +47,5 @@
   text-transform: uppercase;
   padding-top: 27px;
   padding-bottom: 27px;
-  color: var(--white-text-color);
+  color: $white-text-color;
 }

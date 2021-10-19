@@ -3,7 +3,7 @@
   font-size: 14px;
   font-style: normal;
   line-height: 1.71;
-  color: var(--white-text-color);
+  color: $white-text-color;
 }
 
 .footer-item:last-child {
@@ -12,12 +12,12 @@
 
 .footer-list_link:hover,
 .footer-list_link:focus {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .footer-list_link {
   margin-bottom: 9px;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -31,7 +31,7 @@
   margin-top: 20px;
 }
 .footer {
-  background-color: var(--black-bg-color);
+  background-color: $black-bg-color;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -46,7 +46,7 @@
 }
 
 .footer_title {
-  color: var(--white-text-color);
+  color: $white-text-color;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -77,18 +77,18 @@
 
 .footer_link:hover,
 .footer_link:focus {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   border-radius: 50%;
 }
 
 .footer_link:hover .footer_icon-svg,
 .footer_link:focus .footer_icon-svg {
-  fill: var(--white-text-color);
+  fill: $white-text-color;
 }
 
 .footer_link:hover,
 .footer-link:focus {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   border-radius: 50%;
 }
 
@@ -107,5 +107,5 @@
 .footer_icon-svg {
   width: 20px;
   height: 20px;
-  fill: var(--white-text-color);
+  fill: $white-text-color;
 }
