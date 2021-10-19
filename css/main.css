@@ -1030,8 +1030,8 @@ img {
   border: 1px solid #2196f3;
 }
 
-.form_input:focus + .form-icon,
-.form_input:hover + .form-icon {
+.form_input:focus + .form_icon,
+.form_input:hover + .form_icon {
   color: #2196f3;
   fill: currentColor;
 }
