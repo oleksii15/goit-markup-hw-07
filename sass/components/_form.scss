@@ -39,8 +39,8 @@
   }
 }
 
-.form_input:focus + .form-icon,
-.form_input:hover + .form-icon {
+.form_input:focus + .form_icon,
+.form_input:hover + .form_icon {
   color: $accent-color;
   fill: currentColor;
 }
