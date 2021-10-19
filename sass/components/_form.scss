@@ -43,7 +43,7 @@
 
 .form_input:focus + .form-icon,
 .form_input:hover + .form-icon {
-  fill: $accent-color;
+  fill: currentColor;
 }
 
 .form_icon {

@@ -1034,7 +1034,7 @@ img {
 
 .form_input:focus + .form-icon,
 .form_input:hover + .form-icon {
-  fill: #2196f3;
+  fill: currentColor;
 }
 
 .form_icon {
