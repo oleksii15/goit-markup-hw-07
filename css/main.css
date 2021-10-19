@@ -384,7 +384,7 @@ img {
 }
 
 .features_item {
-  margin-right: 0;
+  margin-right: last-child 0;
 }
 
 .features_box {

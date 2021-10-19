@@ -39,12 +39,12 @@
   .form_textarea:focus {
     border: 1px solid $accent-color;
   }
+}
 
-  &:focus + .form-icon,
-  &:hover + .form-icon {
-    color: $accent-color;
-    fill: currentColor;
-  }
+.form_input:focus + .form-icon,
+.form_input:hover + .form-icon {
+  color: $accent-color;
+  fill: currentColor;
 }
 
 .form_icon {
