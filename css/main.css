@@ -1034,8 +1034,7 @@ img {
 
 .form_input:focus + .form-icon,
 .form_input:hover + .form-icon {
-  color: #2196f3;
-  fill: currentColor;
+  fill: #2196f3;
 }
 
 .form_icon {
@@ -1088,9 +1087,7 @@ img {
           justify-content: center;
   margin-bottom: 30px;
   font-weight: normal;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: #757575;
 }
 
