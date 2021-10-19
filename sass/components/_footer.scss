@@ -4,10 +4,9 @@
   font-style: normal;
   line-height: 1.71;
   color: $white-text-color;
-}
-
-.footer-item:last-child {
-  margin-bottom: 0;
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .footer-list_link:hover,
@@ -25,6 +24,10 @@
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
 
 .footer-address {
@@ -73,23 +76,20 @@
   border-radius: 50%;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer_link:hover,
-.footer_link:focus {
-  background-color: $accent-color;
-  border-radius: 50%;
-}
-
-.footer_link:hover .footer_icon-svg,
-.footer_link:focus .footer_icon-svg {
-  fill: $white-text-color;
-}
-
-.footer_link:hover,
-.footer-link:focus {
-  background-color: $accent-color;
-  border-radius: 50%;
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+    border-radius: 50%;
+  }
+  &:hover .footer_icon-svg,
+  &:focus .footer_icon-svg {
+    fill: $white-text-color;
+  }
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+    border-radius: 50%;
+  }
 }
 
 .footer_flex-box {
