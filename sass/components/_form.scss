@@ -41,6 +41,7 @@
 
 .form_input:focus + .form-icon,
 .form_input:hover + .form-icon {
+  color: $accent-color;
   fill: currentColor;
 }
 
