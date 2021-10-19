@@ -1,4 +1,4 @@
-.footer-list_item {
+.footer_item {
   margin-bottom: 9px;
   font-size: 14px;
   font-style: normal;
@@ -9,16 +9,17 @@
   }
 }
 
-.footer-list_link:hover,
-.footer-list_link:focus {
+.footer_link:hover,
+.footer_link:focus {
   color: $accent-color;
 }
 
-.footer-list_link {
+.footer_link {
   margin-bottom: 9px;
   color: $primary-text-color;
   font-weight: 500;
   font-size: 14px;
+  font-style: normal;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -39,7 +40,7 @@
   padding-bottom: 60px;
 }
 
-.connect {
+.footer_connect {
   flex-grow: 1;
 }
 
@@ -66,7 +67,7 @@
   margin-right: 10px;
 }
 
-.footer_link {
+.footer_soclink {
   display: flex;
   justify-content: center;
   align-items: center;

@@ -732,13 +732,13 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-link_svg-item:focus,
-.clients-link_icon:hover {
+.clients_svg-item:focus,
+.clients_icon:hover {
   fill: #2196f3;
   color: #afb1b8;
 }
 
-.clients-link {
+.clients_link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -756,16 +756,16 @@ img {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-link:hover, .clients-link:focus {
+.clients_link:hover, .clients_link:focus {
   border-color: #2196f3;
 }
 
-.clients-link:hover .clients-link_svg,
-.clients-link:focus .clients-link_svg {
+.clients_link:hover .clients_svg,
+.clients_link:focus .clients_svg {
   fill: #2196f3;
 }
 
-.footer-list_item {
+.footer_item {
   margin-bottom: 9px;
   font-size: 14px;
   font-style: normal;
@@ -773,20 +773,21 @@ img {
   color: #ffffff;
 }
 
-.footer-list_item:last-child {
+.footer_item:last-child {
   margin-bottom: 0;
 }
 
-.footer-list_link:hover,
-.footer-list_link:focus {
+.footer_link:hover,
+.footer_link:focus {
   color: #2196f3;
 }
 
-.footer-list_link {
+.footer_link {
   margin-bottom: 9px;
   color: #757575;
   font-weight: 500;
   font-size: 14px;
+  font-style: normal;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -795,7 +796,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-list_link:hover, .footer-list_link:focus {
+.footer_link:hover, .footer_link:focus {
   color: #2196f3;
 }
 
@@ -809,7 +810,7 @@ img {
   padding-bottom: 60px;
 }
 
-.connect {
+.footer_connect {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
@@ -848,7 +849,7 @@ img {
   margin-right: 10px;
 }
 
-.footer_link {
+.footer_soclink {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -866,17 +867,17 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer_link:hover, .footer_link:focus {
+.footer_soclink:hover, .footer_soclink:focus {
   background-color: #2196f3;
   border-radius: 50%;
 }
 
-.footer_link:hover .footer_icon-svg,
-.footer_link:focus .footer_icon-svg {
+.footer_soclink:hover .footer_icon-svg,
+.footer_soclink:focus .footer_icon-svg {
   fill: #ffffff;
 }
 
-.footer_link:hover, .footer_link:focus {
+.footer_soclink:hover, .footer_soclink:focus {
   background-color: #2196f3;
   border-radius: 50%;
 }
