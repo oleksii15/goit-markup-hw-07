@@ -276,6 +276,7 @@ img {
   background-color: var(--accent-color);
 }
 
+/* MODAL */
 .backdrop {
   position: fixed;
   top: 0;
@@ -396,7 +397,7 @@ img {
   justify-content: center;
 }
 
-/* FILTERS AND ACTIVITY */
+/* FILTERS  */
 
 .filters_item:not(:last-child) {
   margin-right: 8px;
@@ -872,13 +873,12 @@ img {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-
+  border: none;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   border-radius: 4px;
-
   color: var(--white-text-color);
   background-color: var(--accent-color);
   cursor: pointer;
@@ -997,23 +997,19 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-
   cursor: pointer;
   background-color: var(--accent-color);
-  border: 0;
+  border: none;
   border-radius: 4px;
   padding: 10px 32px;
   min-width: 200px;
   color: var(--white-text-color);
-
-  font-family: roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.88;
   letter-spacing: 0.06em;
   text-align: center;
-
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

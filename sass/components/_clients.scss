@@ -1,0 +1,57 @@
+.clients_title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.clients_list {
+  display: flex;
+}
+.clients_blok {
+  margin-right: 30px;
+}
+
+.clients_blok:last-child {
+  margin-right: 0;
+}
+
+/* CLIENTS LINK */
+
+.clients-link_svg {
+  width: 106px;
+  height: 60px;
+  fill: var(--soc-logo-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients-link_svg-item:focus,
+.clients-link_icon:hover {
+  fill: var(--accent-color);
+  color: var(--soc-logo-color);
+}
+
+.clients-link {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--soc-logo-color);
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients-link:hover .clients-link_svg,
+.clients-link:focus .clients-link_svg {
+  fill: var(--accent-color);
+}
+
+.clients-link:hover,
+.clients-link:focus {
+  border-color: var(--accent-color);
+}
