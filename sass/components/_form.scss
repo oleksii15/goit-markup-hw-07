@@ -124,20 +124,19 @@
 .checkbox {
   appearance: none;
   position: absolute;
-}
+  &:focus + .checkbox_item,
+  &:hover + .checkbox_item {
+    fill: $accent-color;
+  }
 
-.checkbox:focus + .checkbox_item,
-.checkbox:hover + .checkbox_iyem {
-  fill: $accent-color;
-}
-
-.checkbox:checked + .checkbox_item {
-  border-radius: 2px;
-  fill: $accent-color;
-  background-color: $accent-color;
-  background-image: url(../images/accept.svg);
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
+  &:checked + .checkbox_item {
+    border-radius: 2px;
+    fill: $accent-color;
+    background-color: $accent-color;
+    background-image: url(../images/accept.svg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
 }
 
 .checkbox_item {
