@@ -723,8 +723,7 @@ img {
   margin-right: 0;
 }
 
-/* CLIENTS LINK */
-.clients-link_svg {
+.clients_svg {
   width: 106px;
   height: 60px;
   fill: #afb1b8;
