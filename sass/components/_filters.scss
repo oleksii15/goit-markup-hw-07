@@ -1,5 +1,7 @@
-.filters_item:not(:last-child) {
-  margin-right: 8px;
+.filters_item {
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
 }
 .filters_list {
   display: flex;
