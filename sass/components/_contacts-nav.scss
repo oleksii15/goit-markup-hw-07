@@ -5,8 +5,10 @@
   margin-left: auto;
 }
 
-.contacts_item:not(:last-child) {
-  margin-right: 50px;
+.contacts_item {
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
 }
 
 .contacts_link {
