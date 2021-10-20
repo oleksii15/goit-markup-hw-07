@@ -53,6 +53,11 @@
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateY(-50%);
   fill: $logo-black;
+  .form_input:focus + &,
+  .form_input:hover + & {
+    color: $accent-color;
+    fill: currentColor;
+  }
 }
 
 .form_textarea {
@@ -69,8 +74,10 @@
   }
 }
 
-.form .form_field:nth-child(5) {
-  margin-bottom: 20px;
+.form .form_field {
+  &:nth-child(5) {
+    margin-bottom: 20px;
+  }
 }
 
 .form_link {
@@ -120,19 +127,15 @@
 .checkbox {
   appearance: none;
   position: absolute;
-  &:focus + .checkbox_item,
-  &:hover + .checkbox_item {
-    fill: $accent-color;
-  }
+}
 
-  &:checked + .checkbox_item {
-    border-radius: 2px;
-    fill: $accent-color;
-    background-color: $accent-color;
-    background-image: url(../images/accept.svg);
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-  }
+&:checked + .checkbox_item {
+  border-radius: 2px;
+  fill: $accent-color;
+  background-color: $accent-color;
+  background-image: url(../images/accept.svg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
 
 .checkbox_item {
@@ -141,4 +144,8 @@
   height: 15px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  .checkbox:focus + &,
+  .checkbox:hover + & {
+    fill: $accent-color;
+  }
 }
