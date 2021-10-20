@@ -29,6 +29,10 @@
 .clients_icon:hover {
   fill: $accent-color;
   color: $soc-logo-color;
+  .clients_link:hover &,
+  .clients_link:focus & {
+    fill: $accent-color;
+  }
 }
 
 .clients_link {
@@ -44,9 +48,5 @@
   &:hover,
   &:focus {
     border-color: $accent-color;
-  }
-  &:hover .clients_svg,
-  &:focus .clients_svg {
-    fill: $accent-color;
   }
 }
