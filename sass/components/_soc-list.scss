@@ -20,11 +20,6 @@
     background-color: $accent-color;
     border-radius: 50%;
   }
-
-  &:hover .soc-link_icon,
-  &k:focus .soc-link_icon {
-    fill: $white-text-color;
-  }
 }
 
 .soc-list {
@@ -36,4 +31,8 @@
   width: 20px;
   height: 20px;
   fill: $soc-logo-color;
+  soc-link:hover &,
+  soc-link:focus & {
+    fill: $white-text-color;
+  }
 }
