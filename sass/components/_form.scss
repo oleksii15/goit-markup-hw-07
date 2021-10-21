@@ -129,7 +129,7 @@
   position: absolute;
 }
 
-&:checked + .checkbox__item {
+.checkbox:checked + .checkbox__item {
   border-radius: 2px;
   fill: $accent-color;
   background-color: $accent-color;
