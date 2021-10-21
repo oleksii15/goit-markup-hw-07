@@ -199,7 +199,7 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.connect_logo--blue {
+.logo--white__logo {
   margin: auto 0;
   color: #2196f3;
   font-family: Raleway, sans-serif;
@@ -227,7 +227,7 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.connect_logo--white {
+.logo--white {
   margin: auto 0;
   color: #ffffff;
   font-family: Raleway, sans-serif;
