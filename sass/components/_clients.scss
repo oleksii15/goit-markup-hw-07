@@ -1,4 +1,4 @@
-.clients_title {
+.clients__title {
   color: $title-text-color;
   font-weight: 700;
   font-size: 36px;
@@ -8,34 +8,34 @@
   text-align: center;
 }
 
-.clients_list {
+.clients__list {
   display: flex;
 }
-.clients_blok {
+.clients__blok {
   margin-right: 30px;
   &:last-child {
     margin-right: 0;
   }
 }
 
-.clients_svg {
+.clients__svg {
   width: 106px;
   height: 60px;
   fill: $soc-logo-color;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients_icon:focus,
-.clients_icon:hover {
+.clients__icon:focus,
+.clients__icon:hover {
   fill: $accent-color;
   color: $soc-logo-color;
-  .clients_link:hover &,
-  .clients_link:focus & {
+  .clients__link:hover &,
+  .clients__link:focus & {
     fill: $accent-color;
   }
 }
 
-.clients_link {
+.clients__link {
   display: flex;
   width: 170px;
   height: 92px;

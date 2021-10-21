@@ -2,8 +2,8 @@
   padding-top: 0;
 }
 
-.work_title,
-.team_title {
+.work__title,
+.team__title {
   margin-bottom: 50px;
   color: $title-text-color;
   font-weight: 700;
@@ -12,7 +12,7 @@
   text-align: center;
 }
 
-.work_list {
+.work__list {
   flex-wrap: wrap;
   margin-left: calc(-1 * 30px);
   display: flex;
@@ -21,13 +21,13 @@
   }
 }
 
-.work_item {
+.work__item {
   flex-basis: calc(100% / 3 -30px);
   margin-left: 30px;
   position: relative;
 }
 
-.work_bottom {
+.work__bottom {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -38,7 +38,7 @@
   background: #2f303acc;
 }
 
-.work_bottom-title {
+.work__bottom-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;

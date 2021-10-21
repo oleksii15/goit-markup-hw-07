@@ -2,13 +2,13 @@
   background-color: $button-grey-color;
 }
 
-.team_list {
+.team__list {
   display: flex;
   flex-wrap: wrap;
   margin-left: calc(-1 * 30px);
 }
 
-.team_item {
+.team__item {
   background: #ffffff;
   flex-basis: calc(100% / 4 -30px);
   margin-left: 30px;
@@ -17,7 +17,7 @@
   border-radius: 0px 0px 4px 4px;
 }
 
-.team_heading {
+.team__heading {
   color: $title-text-color;
   font-weight: 500;
   font-size: 16px;
@@ -26,14 +26,14 @@
   margin-bottom: 10px;
 }
 
-.team_text {
+.team__text {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   margin-bottom: 16px;
 }
 
-.team_item-bottom {
+.team__item-bottom {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: $white-text-color;

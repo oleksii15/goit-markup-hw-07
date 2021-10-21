@@ -1,4 +1,4 @@
-.footer_item {
+.footer__item {
   margin-bottom: 9px;
   font-size: 14px;
   font-style: normal;
@@ -9,7 +9,7 @@
   }
 }
 
-.footer_link {
+.footer__link {
   margin-bottom: 9px;
   color: $primary-text-color;
   font-weight: 500;
@@ -35,16 +35,16 @@
   padding-bottom: 60px;
 }
 
-.footer_connect {
+.footer__connect {
   flex-grow: 1;
 }
 
-.footer_container {
+.footer__container {
   display: flex;
   align-items: baseline;
 }
 
-.footer_title {
+.footer__title {
   color: $white-text-color;
   font-style: normal;
   font-weight: 700;
@@ -54,15 +54,15 @@
   text-transform: uppercase;
   margin-bottom: 20px;
 }
-.footer_soclist {
+.footer__soclist {
   display: flex;
   justify-content: center;
 }
-.footer_socitem:not(:last-child) {
+.footer__socitem:not(:last-child) {
   margin-right: 10px;
 }
 
-.footer_soclink {
+.footer__soclink {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,8 +77,8 @@
     background-color: $accent-color;
     border-radius: 50%;
   }
-  &:hover .footer_icon-svg,
-  &:focus .footer_icon-svg {
+  &:hover .footer__icon-svg,
+  &:focus .footer__icon-svg {
     fill: $white-text-color;
   }
   &:hover,
@@ -88,7 +88,7 @@
   }
 }
 
-.footer_flex-box {
+.footer__flex-box {
   margin-left: 70px;
 }
 
@@ -100,7 +100,7 @@
   align-items: center;
 }
 
-.footer_icon-svg {
+.footer__icon-svg {
   width: 20px;
   height: 20px;
   fill: $white-text-color;

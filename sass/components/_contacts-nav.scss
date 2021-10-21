@@ -5,13 +5,13 @@
   margin-left: auto;
 }
 
-.contacts_item {
+.contacts__item {
   &:not(:last-child) {
     margin-right: 50px;
   }
 }
 
-.contacts_link {
+.contacts__link {
   color: $primary-text-color;
   font-weight: 500;
   font-size: 14px;
@@ -27,7 +27,7 @@
   }
 }
 
-.contacts_icon {
+.contacts__icon {
   fill: currentColor;
   margin-right: 10px;
 }

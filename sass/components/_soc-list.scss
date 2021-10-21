@@ -1,4 +1,4 @@
-.soc-list_item {
+.soc-list__item {
   width: 44px;
   height: 44px;
   & + .soc-list_item {
@@ -27,7 +27,7 @@
   justify-content: center;
 }
 
-.soc-link_icon {
+.soc-link__icon {
   width: 20px;
   height: 20px;
   fill: $soc-logo-color;
